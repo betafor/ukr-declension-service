@@ -1,0 +1,82 @@
+metadata:
+  service_name: UA Declension Service
+  version: 1.0.3
+  execution_time: '2026-08-19T10:12:19.589117Z'
+  status: SUCCESS
+phrase_declension_results:
+- input: IT-директор
+  case: datv
+  case_ua: Давальний
+  output: IT-директорові
+  status: PASSED
+- input: PR-менеджер
+  case: ablt
+  case_ua: Орудний
+  output: PR-менеджером
+  status: PASSED
+- input: Генеральний директор ТОВ
+  case: datv
+  case_ua: Давальний
+  output: Генеральному директорові ТОВ
+  status: PASSED
+- input: Керівник департаменту з маркетингу
+  case: datv
+  case_ua: Давальний
+  output: Керівникові департаменту з маркетингу
+  status: PASSED
+- input: інженер-програміст
+  case: datv
+  case_ua: Давальний
+  output: інженерові-програмістові
+  status: PASSED
+- input: Виробничий підрозділ (Рожівка)
+  case: datv
+  case_ua: Давальний
+  output: Виробничому підрозділові (Рожівці)
+  status: PASSED
+- input: Відділ R&D НРК (ФРОДО)
+  case: ablt
+  case_ua: Орудний
+  output: Відділом R&D НРК (ФРОДО)
+  status: PASSED
+- input: Департамент розвитку нових продуктів
+  case: datv
+  case_ua: Давальний
+  output: Департаментові розвитку нових продуктів
+  status: PASSED
+- input: Департамент розвитку продукту турелі "БУРЯ"
+  case: gent
+  case_ua: Родовий
+  output: Департаменту розвитку продукту турелі "БУРЯ"
+  status: PASSED
+fio_declension_results:
+- input: Ковальчук Олег Петрович
+  gender: M
+  case: datv
+  case_ua: Давальний
+  output: Ковальчук Олегові Петровичеві
+  status: PASSED
+- input: Ковальчук Олена Petrivna
+  gender: F
+  case: datv
+  case_ua: Давальний
+  output: Ковальчук Олені Petrivna
+  status: PASSED
+- input: Сміт Джон
+  gender: M
+  case: gent
+  case_ua: Родовий
+  output: Сміт Джона
+  status: PASSED
+- input: Кідман Ніколь
+  gender: F
+  case: datv
+  case_ua: Давальний
+  output: Кідман Ніколь
+  status: PASSED
+- input: Востріков Ігор Васильович
+  gender: M
+  case: voct
+  case_ua: Кличний
+  output: Востріков Ігорю Васильовичу
+  status: PASSED

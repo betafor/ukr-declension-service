@@ -1,0 +1,18 @@
+# Виртуальное окружение
+.venv/
+venv/
+ENV/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Настройки PyCharm / JetBrains
+.idea/
+
+# Локальные отчеты тестирования (которые генерирует ваш тестовый скрипт)
+test_report_docker.yaml
+test_report_docker.html

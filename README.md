@@ -24,7 +24,7 @@ Set-Content -Path "README.md" -Value '# 🚀 Inflecto Service
 docker build -t ukr-declension-service
 
 #### Запуск контейнера з прокиданням порту 8080 на внутрішній 8000
-docker run -d -p 8080:8080 --name ukr-declension-service-container ukr-declension-service
+docker run -d -p 8080:8000 --name ukr-declension-service-container ukr-declension-service
 
 ### Варіант 2: Прямий запуск для розробки (Python 3.12+)
 
@@ -32,7 +32,7 @@ docker run -d -p 8080:8080 --name ukr-declension-service-container ukr-declensio
 pip install -r requirements.txt
 
 #### Запуск на стандартному порту 8000
-uvicorn app.main:app --host 0.0.0.0 --port 8080 --reload
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 
 
 ### 🔌 Приклади використання API
